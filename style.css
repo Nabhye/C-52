@@ -1,0 +1,75 @@
+h1{
+    color:red;   
+    padding-left: 5px;
+}
+
+ .header *{
+  border:solid;
+  margin-left: 30px;
+} 
+
+.header{
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+}
+
+.Menu{
+    background-color: rgb(59, 187, 113);
+    color: wheat;
+    display: flex;
+    justify-content: space-around;
+    -ms-flex-align: end;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    flex-grow: inherit;
+    justify-content: flex-end;
+}
+
+.team{
+    display: flex;
+    -ms-flex-align: center;
+    justify-content: space-around;
+}
+
+.title{
+    text-align: center;
+    background-color: teal;
+    color: yellow;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+ .team{
+    position: relative;
+}
+
+.team:hover p{
+        opacity: 1;
+}
+
+.team:hover img{
+    opacity: 0.33;
+}
+
+.footer:hover {
+    opacity: 2;
+}
